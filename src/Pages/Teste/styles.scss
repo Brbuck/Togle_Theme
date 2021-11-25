@@ -1,8 +1,14 @@
 .teste{
-    background: var(--theme-background);
+    background: var(--theme-page-background);
+    height: calc(100vh - 72px);
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 4px;
     
     h1{
-        
         font-size: 2rem;
         color: var(--theme-page-text);
     }

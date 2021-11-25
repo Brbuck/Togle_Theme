@@ -1,25 +1,38 @@
 .header{
     background: var(--theme-page-background);
     color: var(--theme-color-text);
+    height: auto;
+    padding: 20px 30px;
+    box-shadow: 0px 2px 5px 0px #ccc;
 
     .nav{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 10px 30px;
-        box-shadow: 0px 2px 5px 0px #ccc;
+        
 
         ul{
             display: flex;
 
+            .menu{
+                cursor: pointer;
+            }
+
             li{
                 list-style: none;
                 font-size: 1.3rem;
-                margin-left: 50px;
-            }
+                margin-left: 50px;  
 
-        }
-        
+                a{
+                    color: var(--theme-color-text);
+                }
+            }
+        } 
+    }
+
+    span{
+        cursor: pointer;
+        font-size: 20px;
     }
 }
 
